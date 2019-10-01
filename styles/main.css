@@ -358,5 +358,5 @@ h3{
 
 @media (max-width: 703.98px) {
     .big-header {font-size:2.2rem;}
-    .card {margin-top:-135px;padding:0px 5px;}
+    .card {margin:-135px 10px 0;}
 }
