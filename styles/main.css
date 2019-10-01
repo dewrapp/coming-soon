@@ -542,6 +542,7 @@ li img{
     padding:100px 0 50px;
     width:100%;
     display: flex;
+    max-width: 900px;
 }
 .tutorial span{
     display: flex;
