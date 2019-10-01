@@ -538,6 +538,20 @@ li img{
     display: flex;
     padding:25px 0;
 }
+.tutorial {
+    display: flex;
+    padding:100px 0 50px;
+}
+.tutorial span{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align:center;
+}
+.tutorial span img{
+    padding:10px 0;
+}
 .social-icons img{
     width:24px;
     padding:0px 5px;
@@ -546,8 +560,8 @@ li img{
 @media (max-width: 703.98px) {
     .big-header {font-size:2.2rem;}
     .card {margin:-135px 10px 0;}
-    ul{flex-direction: column;margin:30px 0px;}
-    li{padding:15px 0;}
+    .tutorial{flex-direction: column;margin:30px 0px;}
+    .tutorial span{padding:15px 0;}
     #mc_embed_signup_scroll {flex-flow: column;}
     .title{font-size:2rem;text-align: center;padding:0 10px;}
     .btn{width:100%;margin:5px 0 0;}
